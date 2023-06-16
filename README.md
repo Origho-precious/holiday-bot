@@ -18,7 +18,7 @@ SLACK_VERIFICATION_TOKEN=
 SLACK_TOKEN=
 ```
 
-This app uses [mailtrap.io](https://mailtrap.io/) for sending email notices and also has a slack bot for sending notices to the channels it's connected to. 
+This app fetches holidays from google calendar API, uses [mailtrap.io](https://mailtrap.io/) for sending email notices and also has a slack bot for sending notices to the channels it's connected to. 
 
 
 NOTE: For now it is scoped to only send notices for Nigerian public holidays and I will be extending it to have worldwide coverage soon but you can change it to your desired country by updating the country region in `src/constants/index.ts`.
